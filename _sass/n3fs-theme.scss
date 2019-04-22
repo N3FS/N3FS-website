@@ -1,1 +1,172 @@
-@import "reboot/bootstrap-reboot"
+@import "reboot/bootstrap-reboot";
+
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400,700';
+
+@font-face {
+  font-family: 'Slapstick Comic';
+  src: url('/assets/fonts/SF_Slapstick_Comic-webfont.eot');
+  src: url('/assets/fonts/SF_Slapstick_Comic-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/assets/fonts/SF_Slapstick_Comic-webfont.woff') format('woff'),
+     url('/assets/fonts/SF_Slapstick_Comic-webfont.ttf') format('truetype'),
+     url('/assets/fonts/SF_Slapstick_Comic-webfont.svg#sf_slapstick_comicregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$accent-color: #e03131;
+$link-color: #0088ff;
+$link-active-color: #4cacff;
+$background-color: #111;
+$foreground-color: #ddd;
+
+$page-width: 1280px;
+$content-width: 800px;
+
+// $header-font: 'Slapstick Comic', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$content-font: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$header-font: $content-font;
+
+html{
+  font-size: 22px;
+}
+body{
+    height: 100%;
+    background-color: $background-color;
+    color: $foreground-color;
+    font-family: $content-font;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: #fff;
+}
+h1{
+  font-size: 48px;
+  line-height: 1;
+}
+h2{
+  font-size: 32px;
+  margin-bottom: 1rem;
+  line-height: 1.25;
+}
+h3{
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+:any-link{
+  color: $link-color;
+}
+:any-link:focus, :any-link:hover{
+  color: $link-active-color;
+  text-decoration: none;
+  border-bottom: 0.1em solid currentColor;
+}
+
+.header{
+  max-width: $page-width;
+  margin: 0 auto;
+
+  // Rotated rect background
+  &::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: -72px;
+    height: 128px;
+    width: $page-width;
+    background-color: $accent-color;
+    z-index: -1;
+    transform: rotate(-5deg);
+  }
+
+  .header-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 96px;
+
+    
+    .header-logo, .header-menu{
+      //
+    }
+    .header-logo{
+      display: block;
+      background-image: url(/assets/images/logo-small@2x.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 96px;
+      height: 96px;
+      color: transparent;
+      font-size: 0;
+      transition: transform 0.25s ease-out;
+
+      &:hover, &:focus{
+        border: none;
+        transform: rotate(-5deg) scale(1.2);
+      }
+    }
+    .header-menu{
+      .header-menu-nav{
+        display: flex;
+        #header-menu-check{
+          visibility: hidden;
+        }
+
+        // Toggle-able menu for mobile
+        .header-menu-links{
+          display: none;
+        }
+        .header-menu-link{
+          margin: 0 0.5rem;
+        }
+        #header-menu-check:checked ~ .header-menu-links{
+          display: block;
+          position: fixed;
+          top: 128px;
+          left: 0;
+          width: 100%;
+          background-color: $background-color;
+          z-index: 99;
+          .header-menu-link{
+            display: block;
+            padding: 0.5rem;
+            text-align: center;
+          }
+        }
+        #header-menu-check:checked ~ #header-menu-toggle{
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 98;
+          background-color: rgba(0, 0, 0, 0.75);
+          text-align: center;
+          padding-top: 64px;
+        }
+
+        //Overrides for larger screens
+        @media (min-width: $page-width){
+          #header-menu-toggle{
+            display: none;
+          }
+          .header-menu-links{
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+main{
+    max-width: $content-width;
+    margin: 0 auto;
+}
+
+.post-meta{
+  opacity: 0.5;
+}
