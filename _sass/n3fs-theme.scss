@@ -249,6 +249,7 @@ article{
       }
 
       &:hover, &:focus{
+        border: none;
         background-image: none;
         background-color: $foreground-color;
         color: $background-color;
