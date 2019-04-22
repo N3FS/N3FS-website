@@ -1,0 +1,28 @@
+{%- assign default_paths = site.pages | map: "path" -%}
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+
+<header>
+  <div class="header-body">
+    <div class="header-logo">
+      {{ site.title | escape }}
+    </div>
+    <div class="header-menu">
+      {%- if page_paths -%}
+      <nav class="header-menu-nav">
+        <input id="header-menu-check" type="checkbox">
+        <label id="header-menu-toggle" for="header-menu-check">
+          Menu
+        </label>
+
+        {%- for path in page_paths -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title -%}
+          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          {%- endif -%}
+        {%- endfor -%}
+      </nav>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+</header>
