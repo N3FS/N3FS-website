@@ -4,3 +4,78 @@
 
 layout: home
 ---
+
+<div class="home-page">
+    <section id="intro">
+        <div class="container">
+        <h1>
+            Welcome to the<br>
+            <strong>Nerd<sup>3</sup> Fanservers</strong>
+        </h1>
+        <p>
+            <a href="#servers" class="option">Join our game servers</a>
+        </p>
+        </div>
+    </section>
+
+    <section id="servers">
+        <h2 class="container">Our servers</h2>
+        
+        <div class="container server-list">
+        <a class="server-item" id="server-minecraft" href="/minecraft">
+            <h3>Minecraft</h3>
+            <p>A community-focused Minecraft server with a Survival PvE world. Creative coming soon™.</p>
+        </a>
+        <a class="server-item" id="server-discord" href="/discord">
+            <h3>Discord</h3>
+            <p>Join the Discord server, and chat with other players. Now with 200% more integration!</p>
+        </a>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container">
+        <h2>News</h2>
+        </div>
+        <div class="news-container container">
+        <div class="news-posts">
+            {%- if site.posts.size > 0 -%}
+            <ul class="post-list">
+            {%- for post in site.posts -%}
+            <li>
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+                </h3>
+                <div class="post-meta">{{ post.date | date: date_format }}</div>
+            </li>
+            {%- endfor -%}
+            </ul>
+            <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">Subscribe via RSS feed</a></p>
+            {%- endif -%}
+        </div>
+
+        <div class="news-twitter">
+            <!-- Twitter embed -->
+            <a class="twitter-timeline" data-lang="en" data-height="512" data-width="320" data-dnt="true" data-theme="dark" data-link-color="#e03131" href="https://twitter.com/Nerd3Server">Tweets by Nerd3Server</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+        <h2>About</h2>
+        <p>
+            The N3FS is community-run by fans of NerdCubed who miss playing on the former NerdCubed Servers.
+        </p>
+        <p>
+            <a href="/about" class="option">More about the N3FS</a>
+            </p>
+        </div>
+    </section>
+</div>
+
+<div class="panorama-background"></div>
