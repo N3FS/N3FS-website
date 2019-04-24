@@ -53,8 +53,7 @@ h2{
   line-height: 1.25;
 }
 h3{
-  font-size: 1rem;
-  text-transform: uppercase;
+  font-size: 28px;
 }
 :any-link{
   color: $link-color;
@@ -68,6 +67,45 @@ h3{
 sub, sup{
   font-size: 60%;
 }
+
+em{
+  font-style: normal;
+  color: $accent-color;
+}
+del{
+  opacity: 0.5;
+}
+
+.lead{
+  font-size: 1.2rem;
+}
+
+article{
+    max-width: calc(#{$content-width} + 1rem);
+    margin: 0 auto;
+    padding: 0 0.5rem
+}
+
+.post-meta{
+  opacity: 0.5;
+}
+
+.option{
+  font-weight: bold;
+  &::before{
+    content: '';
+    display: inline-block;
+    height: 0.75em;
+    width: 0.75em;
+    background-image: url(/assets/images/icon-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-right: 0.5ch;
+  }
+}
+
+//Site header styles
 
 .header{
   max-width: $page-width;
@@ -172,32 +210,37 @@ sub, sup{
   }
 }
 
-article{
-    max-width: $content-width;
-    margin: 0 auto;
-    padding: 0 0.5rem
-}
+// Site footer styles
+footer{
+  background-image: linear-gradient(175deg, #{$background-color}, #{$background-color} 50%, #{$accent-color} 50%, #{$accent-color});
+  background-size: 100% 8.749vw;
+  background-repeat: no-repeat;
+  background-color: $accent-color;
+  min-height: 8.749vw; // assumes 5 degree angle
+  font-size: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 
-.post-meta{
-  opacity: 0.5;
-}
-
-// Class for indicating options (with an arrow prefix?)
-.option{
-  font-weight: bold;
-  &::before{
-    content: '';
-    display: inline-block;
-    height: 0.75em;
-    width: 0.75em;
-    background-image: url(/assets/images/icon-arrow.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    margin-right: 0.5ch;
+  .footer-content{
+    text-align: right;
+    padding: 0.25rem;
+    color: $background-color;
+    p{
+      margin: 0 auto;
+    }
+    :any-link{
+      color: currentColor;
+  
+      &:hover, &:focus{
+        color: currentColor;
+      }
+    }
   }
 }
 
+
+// Home-page specific styles
 .home-page{
   section{
     padding: 32px 0;
@@ -235,7 +278,7 @@ article{
       padding: 48px 1rem 1rem;
       box-shadow: $floating-shadow;
 
-      transition: all 0.25s ease-out;
+      transition: transform 0.25s ease-out, opacity 0.25s ease-out, background-color 0.25s ease-out;
 
       h3{
         font-weight: bold;
@@ -275,9 +318,14 @@ article{
         h3{
           text-transform: none;
           margin: 0;
+          font-weight: normal;
         }
-        .post-meta{
+        .post-details{
           font-size: 0.75rem;
+          opacity: 0.8;
+          .post-date{
+            opacity: 0.5;
+          }
         }
       }
     }

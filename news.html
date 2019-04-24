@@ -1,0 +1,35 @@
+---
+layout: page
+title: News Archive
+short_title: News
+permalink: /news/
+---
+
+<p class="lead">
+    Find out what's happening in the community! 
+</p>
+<p>
+    Smaller announcements are made on <a href="/discord">the Discord server</a>, in the #announcements channel. 
+</p>
+
+<hr>
+
+{%- if site.posts.size > 0 -%}
+{%- for post in site.posts -%}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+        </a>
+    </h3>
+    
+    <p class="post-details">
+            <span class="post-meta">{{ post.date | date: "%e %b %Y" | strip }}:</span>
+        {{ post.excerpt | strip_html}} 
+    </p>
+    <p class="post-details"><a class="option" href="{{ post.url | relative_url }}">Read more</a></p>
+    <hr>
+{%- endfor -%}
+<hr>
+<p><a href="{{ "/feed.xml" | relative_url }}">Subscribe via RSS feed</a></p>
+{%- endif -%}

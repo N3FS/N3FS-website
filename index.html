@@ -40,20 +40,27 @@ layout: home
         <div class="news-container container">
         <div class="news-posts">
             {%- if site.posts.size > 0 -%}
+            {% assign post_count = 0 %}
             <ul class="post-list">
             {%- for post in site.posts -%}
-            <li>
-                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                    {{ post.title | escape }}
-                </a>
-                </h3>
-                <div class="post-meta">{{ post.date | date: date_format }}</div>
-            </li>
+            {% assign post_count = post_count | plus: 1 %}
+                {% if post_count <= 3 %}
+                <li>
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <h3>
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+                        {{ post.title | escape }}
+                    </a>
+                    </h3>
+                    <div class="post-details">
+                        {{ post.excerpt | strip_html | truncatewords: 32}} <span class="post-date">({{ post.date | date: "%e %b %Y" | strip }})</span>
+                    </div>
+                    <div class="post-details"><a class="option" href="{{ post.url | relative_url }}">Read more</a></div>
+                </li>
+                {% endif %}
             {%- endfor -%}
             </ul>
-            <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">Subscribe via RSS feed</a></p>
+            <p><a href="/news" class="option">Older news</a></p>
             {%- endif -%}
         </div>
 

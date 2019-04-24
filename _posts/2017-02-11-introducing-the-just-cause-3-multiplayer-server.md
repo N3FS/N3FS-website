@@ -4,7 +4,9 @@ title: Introducing the Just Cause 3 Multiplayer server!
 author: DangerAspect
 ---
 
-## N3FS is now hosting a Just Cause 3 Multiplayer sandbox server!
+<p class="lead">N3FS is now hosting a Just Cause 3 Multiplayer sandbox server!</p>
+
+<!--more-->
 
 Fly, grapple, and shoot your way through Medici in game! Here's what's new:
 
