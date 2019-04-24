@@ -2,7 +2,6 @@
 layout: page
 title: News Archive
 short_title: News
-permalink: /news/
 ---
 
 <p class="lead">
@@ -27,9 +26,8 @@ permalink: /news/
             <span class="post-meta">{{ post.date | date: "%e %b %Y" | strip }}:</span>
         {{ post.excerpt | strip_html}} 
     </p>
-    <p class="post-details"><a class="option" href="{{ post.url | relative_url }}">Read more</a></p>
+    <p class="post-details"><a class="action" href="{{ post.url | relative_url }}">Read more</a></p>
     <hr>
 {%- endfor -%}
-<hr>
 <p><a href="{{ "/feed.xml" | relative_url }}">Subscribe via RSS feed</a></p>
 {%- endif -%}

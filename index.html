@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Home
 ---
 
 <div class="home-page">
@@ -13,7 +14,7 @@ layout: home
             <strong>Nerd<sup>3</sup> Fanservers</strong>
         </h1>
         <p>
-            <a href="#servers" class="option">Join our game servers</a>
+            <a href="#servers" class="action"><em>Join our game servers</em></a>
         </p>
         </div>
     </section>
@@ -55,12 +56,12 @@ layout: home
                     <div class="post-details">
                         {{ post.excerpt | strip_html | truncatewords: 32}} <span class="post-date">({{ post.date | date: "%e %b %Y" | strip }})</span>
                     </div>
-                    <div class="post-details"><a class="option" href="{{ post.url | relative_url }}">Read more</a></div>
+                    <div class="post-details"><a class="action" href="{{ post.url | relative_url }}">Read more</a></div>
                 </li>
                 {% endif %}
             {%- endfor -%}
             </ul>
-            <p><a href="/news" class="option">Older news</a></p>
+            <p><a href="/news" class="action">Older news</a></p>
             {%- endif -%}
         </div>
 
@@ -79,7 +80,7 @@ layout: home
             The N3FS is community-run by fans of NerdCubed who miss playing on the former NerdCubed Servers.
         </p>
         <p>
-            <a href="/about" class="option">More about the N3FS</a>
+            <a href="/about" class="action">More about the N3FS</a>
             </p>
         </div>
     </section>

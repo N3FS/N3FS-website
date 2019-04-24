@@ -31,10 +31,17 @@ plugins:
 
 header_pages: 
   - about.md
-  - news.md
+  - news.html
   - rules.md
+  - help.md
 
 excerpt_separator: <!--more-->
+
+permalink: /news/:year/:month/:title
+
+collections:
+  help:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

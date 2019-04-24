@@ -70,12 +70,21 @@ sub, sup{
 
 em{
   font-style: normal;
-  color: $accent-color;
+  background-color: $accent-color;
+  color: $foreground-color;
+  padding: 0 0.5ch 0.25ch;
 }
 del{
   opacity: 0.5;
 }
 
+hr{
+  margin-bottom: 1rem;
+  color: currentColor;
+  border: none;
+  border-bottom: 2px solid currentColor;
+  opacity: 0.5;
+}
 .lead{
   font-size: 1.2rem;
 }
@@ -83,14 +92,15 @@ del{
 article{
     max-width: calc(#{$content-width} + 1rem);
     margin: 0 auto;
-    padding: 0 0.5rem
+    padding: 0 0.5rem;
+    min-height: calc(100vh - 128px - 96px - 8.749vw)
 }
 
 .post-meta{
   opacity: 0.5;
 }
 
-.option{
+.action{
   font-weight: bold;
   &::before{
     content: '';
@@ -102,6 +112,26 @@ article{
     background-size: contain;
     background-position: center;
     margin-right: 0.5ch;
+  }
+
+  &:hover em{
+    background: none;
+    color: currentColor;
+  }
+}
+
+.back{
+  &::before{
+    content: '';
+    display: inline-block;
+    height: 0.75em;
+    width: 0.75em;
+    background-image: url(/assets/images/icon-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-right: 0.5ch;
+    transform: scaleX(-1);
   }
 }
 

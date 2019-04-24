@@ -15,4 +15,7 @@ author: Joey
 
 Please poke Joey if you find any bugs! They'll be listed here until it's fixed. 
 
-* Logo needs outlining (thanks Jack!)
+* ~~Logo needs outlining (thanks Jack!)~~ Gave it a shot and it looks weird, so the logo will remain as is.
+* ~~Page `<title>`s need fixing/adjusting~~
+* SEO plugin needs to be added and tweaked
+* ~~Update policy rule and appeal links in Minecraft~~
