@@ -7,6 +7,7 @@ data:
 - title: Help and Guidelines
   docs:
     - link: /rules
+    - link: /help/minecraft-guidelines
 - title: Policies
   docs:
     - link: /help/minecraft-claims

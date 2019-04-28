@@ -5,6 +5,13 @@ action: View server rules
 short_title: Rules
 ---
 
+We've laid down some rules we expect all players and users of the N3FS to follow. For the avoidance of doubt, all rules are upheld at staff's discretion.
+
+## Guidelines
+
+There are also some guidelines to help you get started on the N3FS. These are in addition to the rules below. 
+
+<a href="/help/minecraft-guidelines" class="action">View guidelines for Minecraft</a>
 
 ## Rules
 
@@ -18,9 +25,10 @@ These rules apply everywhere:
 * **Do not advertise or spam.** 
 * **Do not use hacks, mods, or other tools to gain an advantage over others.** Please play fair.
 * **Do not backseat moderate.** Please contact a member of staff if help is needed.
-* **All rules are upheld at the staff's discretion.** If a staff member asks you to stop, please comply. 
+* **Follow staff instructions.** If a staff member asks you to stop, please comply. 
 
 ### Minecraft
 
 * **Do not grief or loot. No unprovoked PvP.** This is a community-focused server, and players expect others to behave accordingly. 
+* **Respect the property owner's wishes.** Do not modify or take someone elses' property without permission. Doing so is griefing.
 * **Do not make unnessesarily large land claims.** If you have plans for a really grand project, please move further away from towns and other players.
