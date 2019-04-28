@@ -27,6 +27,8 @@ The Minecraft server is integrated with Discord: chat with in-game players from 
 
 <a href="/rules" class="action">View our server rules</a>
 
+<a href="/help/minecraft-guidelines" class="action">Getting started and guidelines</a>
+
 <a href="/help/ban-appeal" class="action">Appeal a ban</a>
 
 <a href="/help/builder" class="action">Nominate someone for builder</a>
