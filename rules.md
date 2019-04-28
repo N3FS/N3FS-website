@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Server Rules
+action: View server rules
 short_title: Rules
 ---
 

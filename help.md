@@ -7,9 +7,11 @@ data:
 - title: Help and Guidelines
   docs:
     - link: /rules
-- title: Policies and Forms
+- title: Policies
   docs:
-    - link: /help/claims
+    - link: /help/minecraft-claims
+- title: Forms
+  docs:
     - link: /help/builder
     - link: /help/ban-appeal
     - link: /help/staff-application
@@ -26,8 +28,13 @@ data:
 {% if p == null %}
 {% assign p = site.pages | where: "url", item.link | first %}
 {% endif %}
+{% if p.action != null %}
+{% assign title = p.action %}
+{% else %}
+{% assign title = p.title %}
+{% endif %}
 
-<a href="{{p.url}}" class="action">{{p.title}}</a>
+<a href="{{p.url}}" class="action">{{title}}</a>
 
 {% endfor %}
 {% endfor %}

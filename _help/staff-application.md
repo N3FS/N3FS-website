@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Staff Application Form
+title: Staff Application
+action: Submit a staff application
 back:
   link: /help
   title: Help

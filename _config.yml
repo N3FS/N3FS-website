@@ -43,6 +43,8 @@ collections:
   help:
     output: true
 
+discord_invite: "https://discord.gg/emfFRbW"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
