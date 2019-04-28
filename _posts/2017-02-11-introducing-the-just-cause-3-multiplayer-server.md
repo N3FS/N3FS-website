@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing the Just Cause 3 Multiplayer server!
-author: DangerAspect
+author: Joey
 ---
 
 <p class="lead">N3FS is now hosting a Just Cause 3 Multiplayer sandbox server!</p>

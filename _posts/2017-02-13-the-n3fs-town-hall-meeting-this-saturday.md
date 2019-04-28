@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The N3FS Town Hall Meeting - this Saturday!
-author: DangerAspect
+author: Joey
 ---
 
 <p class="lead">We're arranging for a town hall meeting next Saturday. Let's talk about the servers, the community, and anything else.</p>
