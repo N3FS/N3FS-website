@@ -32,3 +32,6 @@ These rules apply everywhere:
 * **Do not grief or loot. No unprovoked PvP.** This is a community-focused server, and players expect others to behave accordingly. 
 * **Respect the property owner's wishes.** Do not modify or take someone elses' property without permission. Doing so is griefing.
 * **Do not make unnessesarily large land claims.** If you have plans for a really grand project, please move further away from towns and other players.
+* **Permitted and unpermitted mods:** Mods that affect gameplay and give you an advantage are not allowed. 
+    * Optimisation mods like OptiFine are okay. 
+    * Examples of mods that are not allowed: ore finders, x-ray, or minimap mods that show player locations. 
