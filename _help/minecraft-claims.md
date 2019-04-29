@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Minecraft Build Claim Policy
-action: "Minecraft: Claiming a build"
+action: "Claiming a build"
 back:
   link: /help
   title: Help

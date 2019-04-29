@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Minecraft: Guidelines and Getting Started"
+action: Guidelines and getting started
 back:
   link: /help
   title: Help

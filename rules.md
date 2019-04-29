@@ -7,12 +7,6 @@ short_title: Rules
 
 We've laid down some rules we expect all players and users of the N3FS to follow. For the avoidance of doubt, all rules are upheld at staff's discretion.
 
-## Guidelines
-
-There are also some guidelines to help you get started on the N3FS. These are in addition to the rules below. 
-
-<a href="/help/minecraft-guidelines" class="action">View guidelines for Minecraft</a>
-
 ## Rules
 
 ### General
@@ -35,3 +29,11 @@ These rules apply everywhere:
 * **Permitted and unpermitted mods:** Mods that affect gameplay and give you an advantage are not allowed. 
     * Optimisation mods like OptiFine are okay. 
     * Examples of mods that are not allowed: ore finders, x-ray, or minimap mods that show player locations. 
+
+## Useful links
+
+Here are some other useful links, in addition to the rules above!
+
+<a href="/help/minecraft-guidelines" class="action">View Minecraft guidelines and getting started</a>
+
+<a href="/help/ban-appeal" class="action">Appeal a ban</a>

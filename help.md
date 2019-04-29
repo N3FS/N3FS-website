@@ -4,12 +4,12 @@ title: Help and Support
 short_title: Help
 
 data:
-- title: Help and Guidelines
+- title: Server Rules
   docs:
     - link: /rules
-    - link: /help/minecraft-guidelines
-- title: Policies
+- title: Minecraft
   docs:
+    - link: /help/minecraft-guidelines
     - link: /help/minecraft-claims
 - title: Forms
   docs:
