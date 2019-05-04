@@ -101,6 +101,14 @@
       var cube = new THREE.Mesh(geometry, material);
       scene.add(cube);
 
+      // Mouse control variables
+      var mouseControl = false;
+      var mouseStartX = 0;
+      var mouseStartY = 0;
+      var mouseInputX = 0;
+      var mouseInputY = 0;
+
+      //Animation
       var lastTimestamp = 0;
       function animate(timestamp) {
         //Calculate delta time
@@ -108,24 +116,60 @@
         lastTimestamp = timestamp;
         requestAnimationFrame(animate);
 
-        // Complete a 180 deg (= pi radians) rotation every 60 seconds
-        cube.rotation.y += (Math.PI/60) * deltaTime;
+        if(mouseControl){
+          //Move based on mouse input
+          cube.rotation.y += (Math.PI/5) * deltaTime * mouseInputX;
+          cube.rotation.x += (Math.PI/5) * deltaTime * mouseInputY;
+        }
+        else{
+          // Complete a 180 deg (= pi radians) rotation every 60 seconds
+          cube.rotation.y += (Math.PI/60) * deltaTime;
+        }
 
         renderer.render(scene, camera);
       }
 
+      //Handle resizing of window
       window.addEventListener('resize', setRendererSize, false );
-
       function setRendererSize(){
         renderer.setSize(background.clientWidth, background.clientHeight, false);
         camera.aspect = background.clientWidth / background.clientHeight;
         camera.updateProjectionMatrix();
       }
 
+      //Handle mouse inputs
+      window.addEventListener('mousedown', function(evt){
+        evt.preventDefault();
+        mouseControl = true;
+        mouseStartX = evt.clientX;
+        mouseStartY = evt.clientY;
+        background.parentElement.classList.add("focus");
+      }, false);
+      window.addEventListener('mousemove', function(evt){
+        evt.preventDefault();
+        if(mouseControl){
+          var mouseDeltaX = evt.clientX - mouseStartX;
+          var mouseDeltaY = evt.clientY - mouseStartY;
+
+          //movement needed to reach full speed
+          var sensitivity = 512;
+
+          mouseInputX = mouseDeltaX / sensitivity;
+          mouseInputY = mouseDeltaY / sensitivity;
+        }
+      }, false);
+      window.addEventListener('mouseup', function(evt){
+        mouseControl = false;
+        mouseInputX = 0;
+        mouseInputY = 0;
+        background.parentElement.classList.remove("focus");
+      }, false);
+
       // Loading manager
       THREE.DefaultLoadingManager.onLoad = function ( ) {
         // Start rendering
         animate(0);
+
         background.animate([
           {opacity: 0},
           {opacity: 1}
