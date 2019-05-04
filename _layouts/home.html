@@ -1,5 +1,141 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-{{ content }}
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      {{ content }}
+    </main>
+
+    {%- include footer.html -%}
+
+    <!-- Background -->
+    <div class="panorama-background">
+      <canvas id="background"></canvas>
+    </div>
+    
+
+    <!-- Background canvas script -->
+    <script src="/assets/js/three.js"></script>
+    <script>
+      var scene = new THREE.Scene();
+      var camera = new THREE.PerspectiveCamera(65);
+
+      var background = document.getElementById("background");
+      var renderer = new THREE.WebGLRenderer({canvas: background});
+      setRendererSize();
+
+      var geometry = new THREE.Geometry();
+      var normal = new THREE.Vector3(0, 0, 0);
+      var color = new THREE.Color(0xffffff);
+
+      //Declare cube vertices
+
+      geometry.vertices.push(
+        new THREE.Vector3(-1, 1, -1),
+        new THREE.Vector3(1, 1, -1),
+        new THREE.Vector3(-1, -1, -1),
+        new THREE.Vector3(1, -1, -1),
+        new THREE.Vector3(-1, 1, 1),
+        new THREE.Vector3(1, 1, 1),
+        new THREE.Vector3(-1, -1, 1),
+        new THREE.Vector3(1, -1, 1),
+    )
+
+      //Declare cube faces
+
+      // Side 0
+      geometry.faces.push(new THREE.Face3(2, 1, 0, normal, color, 0));
+      geometry.faces.push(new THREE.Face3(2, 3, 1, normal, color, 0));
+
+      // Side 1
+      geometry.faces.push(new THREE.Face3(3, 5, 1, normal, color, 1));
+      geometry.faces.push(new THREE.Face3(3, 7, 5, normal, color, 1));
+      
+      // Side 2
+      geometry.faces.push(new THREE.Face3(7, 4, 5, normal, color, 2));
+      geometry.faces.push(new THREE.Face3(7, 6, 4, normal, color, 2));
+      
+      // Side 3
+      geometry.faces.push(new THREE.Face3(6, 0, 4, normal, color, 3));
+      geometry.faces.push(new THREE.Face3(6, 2, 0, normal, color, 3));
+      
+      // Side 4
+      geometry.faces.push(new THREE.Face3(0, 5, 4, normal, color, 4));
+      geometry.faces.push(new THREE.Face3(0, 1, 5, normal, color, 4));
+      
+      // Side 5
+      geometry.faces.push(new THREE.Face3(6, 3, 2, normal, color, 5));
+      geometry.faces.push(new THREE.Face3(6, 7, 3, normal, color, 5));
+
+      //Declare face UVs
+      geometry.faceVertexUvs[0] = [];
+
+      for (let i = 0; i < 6; i++) {
+        geometry.faceVertexUvs[0].push([]);
+        geometry.faceVertexUvs[0][i*2][0] = new THREE.Vector2(0, 0);
+        geometry.faceVertexUvs[0][i*2][1] = new THREE.Vector2(1, 1);
+        geometry.faceVertexUvs[0][i*2][2] = new THREE.Vector2(0, 1);
+
+        geometry.faceVertexUvs[0].push([]);
+        geometry.faceVertexUvs[0][i*2+1][0] = new THREE.Vector2(0, 0);
+        geometry.faceVertexUvs[0][i*2+1][1] = new THREE.Vector2(1, 0);
+        geometry.faceVertexUvs[0][i*2+1][2] = new THREE.Vector2(1, 1);
+      }
+
+      //Declare materials
+      var material = [
+        new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load("/assets/images/background/panorama_0.png")}),
+        new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load("/assets/images/background/panorama_1.png")}),
+        new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load("/assets/images/background/panorama_2.png")}),
+        new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load("/assets/images/background/panorama_3.png")}),
+        new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load("/assets/images/background/panorama_4.png")}),
+        new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load("/assets/images/background/panorama_5.png")})
+      ];
+
+      // Make mesh and add to scene
+      var cube = new THREE.Mesh(geometry, material);
+      scene.add(cube);
+
+      var lastTimestamp = 0;
+      function animate(timestamp) {
+        //Calculate delta time
+        var deltaTime = (timestamp - lastTimestamp)/1000;
+        lastTimestamp = timestamp;
+        requestAnimationFrame(animate);
+
+        // Complete a 180 deg (= pi radians) rotation every 60 seconds
+        cube.rotation.y += (Math.PI/60) * deltaTime;
+
+        renderer.render(scene, camera);
+      }
+
+      window.addEventListener('resize', setRendererSize, false );
+
+      function setRendererSize(){
+        renderer.setSize(background.clientWidth, background.clientHeight, false);
+        camera.aspect = background.clientWidth / background.clientHeight;
+        camera.updateProjectionMatrix();
+      }
+
+      // Loading manager
+      THREE.DefaultLoadingManager.onLoad = function ( ) {
+        // Start rendering
+        animate(0);
+        background.animate([
+          {opacity: 0},
+          {opacity: 1}
+        ], {
+          duration: 2000,
+          fill: "forwards"
+        });
+      };
+    </script>
+
+  </body>
+
+</html>
