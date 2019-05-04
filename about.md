@@ -228,7 +228,7 @@ Builders are community members who are recognised for their grand projects, many
     <div class="staff-avatar" style="background-position: -240px -48px;"></div>
     <div class="staff-name">BionicSabertooth</div>
     <div class="staff-position">Builder</div>
-    <div class="staff-tagline">The Master of Incomplete Builds</div>
+    <div class="staff-tagline">The Master of Totally Completed Builds</div>
   </div>
 
   <div class="staff-member">
