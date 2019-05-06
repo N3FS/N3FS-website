@@ -21,7 +21,7 @@ We're also on [Twitter](https://twitter.com/Nerd3Server) and have [a Steam group
 
 The N3FS is independently run and paid for by the server staff. You can show your support by spreading the word and inviting your friends to join the server!
 
-If you would like to support us financially, please get in touch with MD or Joey on Discord.
+If you would like to support us financially, you can find out [more about server finances and donations here](/about/donations).
 
 
 ## What others say about us...
