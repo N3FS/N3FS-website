@@ -10,10 +10,22 @@ This page lists some useful commands for the Minecraft server.
 
 ## In this page:
 
+<a href="#worlds" class="action">Worlds</a>
 <a href="#homes" class="action">Homes</a>
 <a href="#locks" class="action">Locks</a>
 <a href="#teleporting" class="action">Teleporting</a>
 <a href="#messaging" class="action">Messaging</a>
+
+## Worlds
+
+To move between servers, use these commands:
+
+|---
+| Command | Description |
+|---
+| /hub | Moves you to the Hub world|
+| /survival | Moves you to the Survival world|
+|---
 
 ## Homes
 
@@ -52,6 +64,17 @@ Other types of locks:
 More details on the lock plugin including adding others as members to a lock [can be found here](https://github.com/Tsuser1/Modern-LWC/wiki/Commands).
 
 ## Teleporting
+
+To teleport to a place: 
+
+|---
+| Command | Description |
+|---
+| /spawn | Teleports you back to spawn |
+| /warp [name] | Teleports you to the specified warp. |
+|---
+
+To teleport a player or yourself:
 
 |---
 | Command | Description |
