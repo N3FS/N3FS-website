@@ -241,4 +241,4 @@ Builders are community members who are recognised for their grand projects, many
   </div>
 </div>
 
-<a href="/help/builders" class="action">Nominate a Builder</a>
+<a href="/help/builders" class="action">Nominate a builder</a>
