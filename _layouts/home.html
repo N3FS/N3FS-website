@@ -139,14 +139,14 @@
 
       //Handle mouse inputs
       window.addEventListener('mousedown', function(evt){
-        evt.preventDefault();
+        //evt.preventDefault();
         mouseControl = true;
         mouseStartX = evt.clientX;
         mouseStartY = evt.clientY;
         background.parentElement.classList.add("focus");
       }, false);
       window.addEventListener('mousemove', function(evt){
-        evt.preventDefault();
+        //evt.preventDefault();
         if(mouseControl){
           var mouseDeltaX = evt.clientX - mouseStartX;
           var mouseDeltaY = evt.clientY - mouseStartY;
