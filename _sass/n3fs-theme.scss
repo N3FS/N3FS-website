@@ -84,6 +84,12 @@ h2{
 h3{
   font-size: 28px;
 }
+h4{
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.2ch;
+  border-bottom: 1px solid currentColor;
+}
 :any-link{
   color: $link-color;
 }
@@ -120,7 +126,8 @@ table{
   border-collapse: collapse;
   td, th{
     //border: 1px dashed currentColor;
-    padding: 0.125rem 0.25rem;
+    padding: 0.25rem;
+    vertical-align: top;
   }
   thead, tbody{
     border-bottom: 1px solid currentColor;
@@ -148,6 +155,7 @@ article{
 
 .action{
   font-weight: bold;
+  margin-right: 1rem;
   &::before{
     content: '';
     display: inline-block;

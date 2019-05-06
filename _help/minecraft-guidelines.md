@@ -30,6 +30,12 @@ To "claim" a plot of land:
 * We're a friendly community, so feel free to ask around if in doubt. 
 * Avoid excessivly large land claims especially in towns. If you have a grand, big project. please build further away form towns. 
 
+### Useful commands
+
+There are a lot of useful commands and features on the server. 
+
+<a href="/help/minecraft-commands" class="action">Learn about Minecraft commands</a>
+
 <!--*(TODO: Write about player towns)*-->
 
 <!--## Free-form Creative world

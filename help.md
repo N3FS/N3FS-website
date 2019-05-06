@@ -10,6 +10,7 @@ data:
 - title: Minecraft
   docs:
     - link: /help/minecraft-guidelines
+    - link: /help/minecraft-commands
     - link: /help/minecraft-claims
 - title: Forms
   docs:
