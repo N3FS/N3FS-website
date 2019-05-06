@@ -150,6 +150,8 @@ These are the people that run N3FS! To contact staff, please use [our Discord se
   </div>
 </div>
 
+<a href="/help/staff-application" class="action">Submit a staff application</a>
+
 ### Retired staff
 
 These individuals used to help run N3FS, but have since stepped down from their duties. We thank them for their contributions to this community!
@@ -238,3 +240,5 @@ Builders are community members who are recognised for their grand projects, many
     <div class="staff-tagline">Elytra flight is weeeeeird</div>
   </div>
 </div>
+
+<a href="/help/builders" class="action">Nominate a Builder</a>
