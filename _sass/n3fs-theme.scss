@@ -114,6 +114,23 @@ hr{
   border-bottom: 2px solid currentColor;
   opacity: 0.5;
 }
+
+table{
+  min-width: 100%;
+  border-collapse: collapse;
+  td, th{
+    //border: 1px dashed currentColor;
+    padding: 0.125rem 0.25rem;
+  }
+  thead, tbody{
+    border-bottom: 1px solid currentColor;
+  }
+  tr:hover{
+    background-color: rgba($accent-color, 0.2);
+  }
+  margin-bottom: 1rem;
+}
+
 .lead{
   font-size: 1.2rem;
 }
@@ -337,7 +354,7 @@ footer{
       padding: 48px 1rem 1rem;
       box-shadow: $floating-shadow;
 
-      transition: transform 0.25s ease-out, opacity 0.25s ease-out, background-color 0.25s ease-out;
+      transition: transform 0.25s ease-out, opacity 0.25s ease-out;
 
       h3{
         font-weight: bold;
