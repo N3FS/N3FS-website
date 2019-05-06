@@ -7,7 +7,7 @@ back:
   title: About
 ---
 
-The N3FS is run and paid for by the server admins. The costs of running this server are listed below. 
+N3FS is run and paid for by the server admins. The costs of running this server are listed below. 
 
 ## Donators
 

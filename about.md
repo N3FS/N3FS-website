@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About the N3FS
+title: About N3FS
 short_title: About
 ---
 
-The N3FS is community-run by fans of NerdCubed. We're fans of NerdCubed who miss playing on the former NerdCubed Servers, and have a flair for bodging servers together.
+N3FS is community-run by fans of NerdCubed. We're fans of NerdCubed who miss playing on the former NerdCubed Servers, and have a flair for bodging servers together.
 
 ## Our servers
 
@@ -17,9 +17,9 @@ Click below to learn about the servers N3FS currently operate!
 We're also on [Twitter](https://twitter.com/Nerd3Server) and have [a Steam group](https://steamcommunity.com/groups/n3fstjs/edit/profile). 
 
 
-## Supporting the N3FS
+## Supporting N3FS
 
-The N3FS is independently run and paid for by the server staff. You can show your support by spreading the word and inviting your friends to join the server!
+N3FS is independently run and paid for by the server staff. You can show your support by spreading the word and inviting your friends to join the server!
 
 If you would like to support us financially, you can find out [more about server finances and donations here](/about/donations).
 

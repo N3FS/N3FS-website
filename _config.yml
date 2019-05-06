@@ -16,7 +16,7 @@
 title: N3FS
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-   The N3FS is a gaming community run by fans of NerdCubed who miss playing on the former NerdCubed Servers. 
+   N3FS is a gaming community run by fans of NerdCubed who miss playing on the former NerdCubed Servers. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://n3fs.co.uk/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Nerd3Server

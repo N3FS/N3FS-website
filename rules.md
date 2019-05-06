@@ -5,7 +5,7 @@ action: View server rules
 short_title: Rules
 ---
 
-We've laid down some rules we expect all players and users of the N3FS to follow. For the avoidance of doubt, all rules are upheld at staff's discretion.
+We've laid down some rules we expect all players and users of N3FS to follow. For the avoidance of doubt, all rules are upheld at staff's discretion.
 
 ## Rules
 
