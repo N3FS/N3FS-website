@@ -7,11 +7,15 @@ back:
   title: About
 ---
 
-N3FS is run and paid for by the server admins. The costs of running this server are listed below. 
+N3FS is run and paid for by the admins. The costs of running the servers are listed below. 
 
-## Donators
+## Donating
 
-If you would like to help support the server financially, please get in touch with any of the admins! Every little bit helps, and we appreciate every donation, no matter how small. 
+If you would like to help support us financially, please check out the links below! Every little bit helps, and we appreciate every donation, no matter how small. 
+
+<a href="https://www.patreon.com/dangeraspect" class="action">Patreon (for monthly, recurring donations)</a>
+
+<a href="https://ko-fi.com/joeyfoo" class="action">Ko-Fi (for one-off donations)</a>
 
 In exchange for your donation, we will grant you the Donator role. It looks fancy, but that's all it does. Donations do not come with any other benefits. 
 
