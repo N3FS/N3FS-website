@@ -4,6 +4,7 @@ title: Minecraft
 back:
   link: /about
   title: About
+description: "That's right, people still run Minecraft servers. The NerdCubed Minecraft server is back! This time, it's run by the fans, for the fans."
 ---
 
 <p class="lead">That's right, people still run Minecraft servers.</p>

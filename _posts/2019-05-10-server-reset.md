@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Minecraft 1.13 server is here! (and about our 1.12 shutdown plans)
+author: Joey
 ---
 
 🎉🎉🎉 We've soft-launched the Minecraft 1.13 server, and it's now open to all users! You might also notice our fancy new website. 
