@@ -15,7 +15,7 @@ If you would like to contact us, please use our Discord server.
 
 For support requests, please post in the *`#support`* channel.  
 
-For other matters related to the server itself, you may use *`#server-meta`*. 
+For other matters related to the server itself, you may use *`#server-discussion`*. 
 
 You may also opt to directly message an available staff member there directly. 
 
