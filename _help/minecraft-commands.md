@@ -61,6 +61,16 @@ Other types of locks:
 | /cpublic | Public lock: all players can use the thing but cannot lock it.|
 |---
 
+Lock flags:
+
+|---
+| Command | Description |
+|---
+| /lwc flag redstone on | Disable redstone input (so things like levers cannot open that door) |
+| /lwc flag redstone off | Enables redstone input |
+| /lwc flag hopper on | Enable hoppers to interact with locked chests |
+|---
+
 More details on the lock plugin including adding others as members to a lock [can be found here](https://github.com/Tsuser1/Modern-LWC/wiki/Commands).
 
 ## Teleporting
