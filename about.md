@@ -4,7 +4,7 @@ title: About N3FS
 short_title: About
 ---
 
-N3FS is community-run by fans of NerdCubed. We're fans of NerdCubed who miss playing on the former NerdCubed Servers, and have a flair for bodging servers together.
+N3FS is a gaming community run by fans of NerdCubed. We're fans of NerdCubed who miss playing on the former NerdCubed Servers, and have a flair for bodging servers together.
 
 ## Our servers
 

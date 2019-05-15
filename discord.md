@@ -10,7 +10,7 @@ back:
 
 In addition to text and voice channels, Discord is also integrated with our Minecraft servers, allowing you to chat with people in-game, without being in the game!
 
-<a href="{{ site.discord_invite }}" class="action">Join the Discord server</a>
+<a href="{{ site.discord_invite }}" class="action"><em>Join the Discord server</em></a>
 
 ----
 
