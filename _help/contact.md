@@ -21,4 +21,4 @@ You may also opt to directly message an available staff member there directly.
 
 ## Server bans
 
-To appeal a ban, please use the [Ban Appeal form](http://127.0.0.1:4000/help/ban-appeal).
+To appeal a ban, please use the [Ban Appeal form](/help/ban-appeal).
