@@ -28,7 +28,7 @@ To "claim" a plot of land:
 * Find a vacant piece of land. Mark it with signs and blocks or torches so others know not to build there. 
 * Don't build or claim too closely to others: use your judgement! In towns, buildings might be close to each other, but avoid encroaching too closely on someone else. 
 * We're a friendly community, so feel free to ask around if in doubt. 
-* Avoid excessivly large land claims especially in towns. If you have a grand, big project. please build further away form towns. 
+* Avoid excessivly large land claims, especially in towns. If you have a grand, big project. please build further away from towns. 
 
 ### Useful commands
 
