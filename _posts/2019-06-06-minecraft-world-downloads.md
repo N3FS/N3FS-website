@@ -8,11 +8,12 @@ As promised, here are some of the world downloads for the previous Minecraft ser
 
 <!--more-->
 
-These files are being provided as-is from the server, so each world dimension is in its own folder (for worlds like Survival). 
 
-If you load them in vanilla Minecraft, you will spawn in Survival mode. You will need to move some folders around so the Overworld, Nether, and The End dimensions work properly in singleplayer. 
+These files are being provided as-is from the server. You should be able to open each world by copying each folder into your .minecraft/saves folder. 
 
-If you want to keep it easy, just pop each folder into your .minecraft/saves folder. To change game mode, go to the Pause menu, and select Open to LAN. set Allow Cheats to On, open the world, then type in the command `/gamemode creative`.
+If you want to access the Nether and The End in multi-dimension worlds like survival, read on after the download list for instructions. 
+
+To change game mode, go to the Pause menu, select Open to LAN, and set Allow Cheats to On. After this, you should be able to change game mode by using the command `/gamemode creative`.
 
 |--
 | World download name | ZIP download size | Uncompressed size |
@@ -27,3 +28,15 @@ If you want to keep it easy, just pop each folder into your .minecraft/saves fol
 |--
 
 Have fun!
+
+---
+
+For multi-dimension worlds like Survival, each world dimension is in its own folder: survival, survival_nether, and survival_the_end. If you want the dimensions to work properly within a single world, move the DIM-1 folder from the Nether and the DIM1 folder from The End into the main world folder. You should end up with a folder layout like this: 
+
+* survival
+    * /region
+    * /DIM-1
+        * /region
+    * /DIM1
+        * /region
+    * level.dat and other files
