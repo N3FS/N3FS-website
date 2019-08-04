@@ -22,7 +22,7 @@ The Minecraft server is integrated with Discord: chat with in-game players from 
 *Please read before joining*: this is a community-focused server. Unprovoked PvP, griefing, or looting is not allowed. Please read the server rules for full details. 
 
 **Server address**: `mc.n3fs.co.uk`  
-**Minecraft version**: 1.13 (Java Edition)
+**Minecraft version**: 1.13.2 (Java Edition)
 
 ----
 
