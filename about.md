@@ -123,13 +123,6 @@ These are the people that run N3FS! To contact staff, please use [our Discord se
   </div>
 
   <div class="staff-member">
-    <div class="staff-avatar" style="background-position: 0px -96px;"></div>
-    <div class="staff-name">Nody</div>
-    <div class="staff-position">Mod</div>
-    <div class="staff-tagline">Moderating people since 2014</div>
-  </div>
-
-  <div class="staff-member">
     <div class="staff-avatar" style="background-position: -336px -48px;"></div>
     <div class="staff-name">TheRetroSheperd</div>
     <div class="staff-position">Mod</div>
@@ -192,7 +185,15 @@ These individuals used to help run N3FS, but have since stepped down from their 
     <div class="staff-position">Community Manager</div>
     <div class="staff-tagline">Ran off to sixth form.</div>
   </div>
+
+  <div class="staff-member fade">
+    <div class="staff-avatar" style="background-position: 0px -96px;"></div>
+    <div class="staff-name">Nody</div>
+    <div class="staff-position">Mod</div>
+    <div class="staff-tagline">Moderating people since 2014</div>
+  </div>
 </div>
+
 
 ### Builders
 
