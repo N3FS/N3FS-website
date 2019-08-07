@@ -12,6 +12,7 @@ data:
     - link: /help/minecraft-guidelines
     - link: /help/minecraft-commands
     - link: /help/minecraft-claims
+    - link: /help/minecraft-verification
 - title: Forms
   docs:
     - link: /help/builder

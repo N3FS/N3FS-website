@@ -19,7 +19,7 @@ The Minecraft server is integrated with Discord: chat with in-game players from 
 
 ## Server details
 
-*Please read before joining*: this is a community-focused server. Unprovoked PvP, griefing, or looting is not allowed. Please read the server rules for full details. 
+*Please take the time to read* the [rules and guidelines](/help/minecraft-guidelines) before joining. This is a community-focused server. Unprovoked PvP, griefing, or looting is not allowed. 
 
 **Server address**: `mc.n3fs.co.uk`  
 **Minecraft version**: 1.13.2 (Java Edition)
@@ -28,7 +28,11 @@ The Minecraft server is integrated with Discord: chat with in-game players from 
 
 <a href="/rules" class="action">View our server rules</a>
 
-<a href="/help/minecraft-guidelines" class="action">Getting started and guidelines</a>
+<a href="/help/minecraft-guidelines" class="action">Getting started / Server guidelines</a>
+
+<a href="/help/minecraft-verification" class="action">Getting Verified status</a>
+
+----
 
 <a href="/help/ban-appeal" class="action">Appeal a ban</a>
 
