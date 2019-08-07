@@ -29,7 +29,7 @@ To move between servers, use these commands:
 
 ## Homes
 
-You can set up to 3 homes in Survival.
+You can set up to 5 homes in Survival.
 
 |---
 | Command | Description |
