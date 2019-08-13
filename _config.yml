@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
    N3FS is a gaming community run by fans of NerdCubed who miss playing on the former NerdCubed Servers. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://n3fs.co.uk/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Nerd3Server
+twitter_username: TeamN3FS
 github_username: N3FS
 
 # Build settings
@@ -47,7 +47,7 @@ discord_invite: "https://discord.gg/emfFRbW"
 # SEO details
 url: https://n3fs.co.uk/
 twitter: 
-  username: Nerd3Server
+  username: TeamN3FS
   card: summary
 logo: /assets/images/logo-small@2x.png
 

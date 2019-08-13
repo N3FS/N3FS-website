@@ -426,6 +426,10 @@ footer{
       .news-twitter{
         flex: auto;
         width: 320px;
+        padding-left: 1rem;
+        iframe{
+          height: 100% !important;
+        }
       }
     }
   }
