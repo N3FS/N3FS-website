@@ -422,6 +422,9 @@ footer{
       .news-posts{
         flex: auto;
         width: $content-width - 320px;
+        h3{
+          line-height: 1;
+        }
       }
       .news-twitter{
         flex: auto;
