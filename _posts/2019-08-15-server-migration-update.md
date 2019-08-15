@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Server migration update (+ Creative world and Minecaft 1.14)
+title: Server migration update (+ Creative world and Minecraft 1.14)
 author: Joey
 ---
 
