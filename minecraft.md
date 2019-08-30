@@ -12,7 +12,7 @@ description: "That's right, people still run Minecraft servers. The NerdCubed Mi
 The NerdCubed Minecraft server is back! This time, it's run by the fans, for the fans. A Minecraft server with worlds such as:
 
 * **Survival** (PvE): A community-focused PvE Survival world, with a few useful extras such as /homes and inter-player messaging. 
-* ~~**Creative**: A classic, open creative world. No plot system, just a flat open world.~~ Coming soon!
+* **Creative**: A classic, open creative world. No plot system, just a flat open world.
 * ~~**Plots (new!)**: A recently introduced plot world! Claim a plot and build away without worry!~~ Coming soon!
 
 The Minecraft server is integrated with Discord: chat with in-game players from your Discord app without opening Minecraft! We also occasionally host community events!
@@ -22,7 +22,7 @@ The Minecraft server is integrated with Discord: chat with in-game players from 
 *Please take the time to read* the [rules and guidelines](/help/minecraft-guidelines) before joining. This is a community-focused server. Unprovoked PvP, griefing, or looting is not allowed. 
 
 **Server address**: `mc.n3fs.co.uk`  
-**Minecraft version**: 1.13.2 (Java Edition)
+**Minecraft version**: 1.14.4 (Java Edition)
 
 ----
 
