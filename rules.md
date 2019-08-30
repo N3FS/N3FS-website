@@ -5,7 +5,7 @@ action: View server rules
 short_title: Rules
 ---
 
-We've laid down some rules we expect all players and users of N3FS to follow. For the avoidance of doubt, all rules are upheld at staff's discretion.
+We've laid down some rules we expect all players and users of N3FS to follow, to make sure everyone has the best experience possible. The staff team has the final word when it comes to rules being broken, so if in doubt, talk to a member of staff ingame, or visit the <i>#support</i> channel on <a href="/discord">Discord</a>.
 
 ## Rules
 
@@ -21,14 +21,16 @@ These rules apply everywhere:
 * **Do not backseat moderate.** Please contact a member of staff if help is needed.
 * **Follow staff instructions.** If a staff member asks you to stop, please comply. 
 
-### Minecraft
+### Minecraft Survival
+
+These rules are specific to the <a href="/minecraft>survival Minecraft</a> server:
 
 * **Do not grief or loot. No unprovoked PvP.** This is a community-focused server, and players expect others to behave accordingly. 
-* **Respect the property owner's wishes.** Do not bypass locked doors, and do not modify or take someone elses' property without permission. Doing so is considered griefing.
+* **Respect the property owner's wishes.** Do not bypass locked doors, and do not modify or take someone else's property without permission - doing so is considered griefing.
 * **Do not make unnecessarily large land claims.** If you have plans for a really grand project, please move further away from towns and other players.
 * **Permitted and non-permitted mods:** Mods that affect gameplay and give you an advantage are not allowed. 
     * Optimisation mods like OptiFine are okay. 
-    * Examples of mods that are not allowed: ore finders, x-ray, or minimap mods that show player locations. 
+    * Examples of mods that are not allowed: ore finders, x-ray, or minimap mods that show player locations (try looking for a "Fair-Play" version). 
 
 ## Useful links
 
