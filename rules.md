@@ -23,7 +23,7 @@ These rules apply everywhere:
 
 ### Minecraft Survival
 
-These rules are specific to the <a href="/minecraft>survival Minecraft</a> server:
+These rules are specific to the <a href="/minecraft">survival Minecraft</a> server:
 
 * **Do not grief or loot. No unprovoked PvP.** This is a community-focused server, and players expect others to behave accordingly. 
 * **Respect the property owner's wishes.** Do not bypass locked doors, and do not modify or take someone else's property without permission - doing so is considered griefing.
