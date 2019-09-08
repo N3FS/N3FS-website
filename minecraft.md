@@ -13,7 +13,6 @@ The NerdCubed Minecraft server is back! This time, it's run by the fans, for the
 
 * **Survival** (PvE): A community-focused PvE Survival world, with a few useful extras such as /homes and inter-player messaging. 
 * **Creative**: A classic, open creative world. No plot system, just a flat open world.
-* ~~**Plots (new!)**: A recently introduced plot world! Claim a plot and build away without worry!~~ Coming soon!
 
 The Minecraft server is integrated with Discord: chat with in-game players from your Discord app without opening Minecraft! We also occasionally host community events!
 
@@ -24,13 +23,17 @@ The Minecraft server is integrated with Discord: chat with in-game players from 
 **Server address**: `mc.n3fs.co.uk`  
 **Minecraft version**: 1.14.4 (Java Edition)
 
+### Verification
+
+To be able to build in the spawn town in Survival and in Creative, you need to verify that you have read and will comply with our rules. 
+
+<a href="/help/minecraft-verification" class="action">Getting Verified status</a>
+
 ----
 
 <a href="/rules" class="action">View our server rules</a>
 
 <a href="/help/minecraft-guidelines" class="action">Getting started / Server guidelines</a>
-
-<a href="/help/minecraft-verification" class="action">Getting Verified status</a>
 
 ----
 

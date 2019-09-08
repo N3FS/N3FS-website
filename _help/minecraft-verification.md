@@ -6,7 +6,7 @@ back:
   title: Help
 ---
 
-New players are not able to build in the spawn town. If you would like to do so, you need to be verified. 
+New players are not able to build in the Survival spawn town and in Creative. If you would like to do so, you need to be verified. 
 
 Verification is simple: 
 
