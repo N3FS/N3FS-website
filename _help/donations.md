@@ -21,14 +21,14 @@ In exchange for your donation, we will grant you the Donator role. It looks fanc
 
 ## Estimated expenses
 
-The following are the estimated costs of running this community. 
+The following are the current estimated costs of running this community. 
 
 |---
 | Description | Frequency | Amount |
 |---
-| Dedicated server | Monthly | 21.58 EUR (around 18.4 GBP) |
-| Domain name renewal | Annual | 7.37 GBP |
+| Dedicated server | Monthly | 22.99 USD |
+| Domain name renewal | Annual | 12.98 USD (expected) |
 |---
-| Estimated total annual expenses |  | 228.17 GBP |
-| Estimated total monthly expenses |  | 19.01 GBP |
+| Estimated total annual expenses |  | 288.86 USD |
+| Estimated total monthly expenses |  | 24.07 USD |
 |---
