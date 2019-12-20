@@ -29,6 +29,7 @@ The following are the current estimated costs of running this community.
 | Dedicated server | Monthly | 22.99 USD |
 | Domain name renewal | Annual | 12.98 USD (expected) |
 |---
-| Estimated total annual expenses |  | 288.86 USD |
-| Estimated total monthly expenses |  | 24.07 USD |
+| Estimated total expenses |  |  |
+| - Yearly |  | 288.86 USD |
+| - Monthly |  | 24.07 USD |
 |---
