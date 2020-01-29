@@ -9,9 +9,13 @@ The Basement is a private (whitelisted), non-PvP Minecraft server hosted for [@h
 ## Server details
 
 **Server address**: `basement.n3fs.co.uk`  
-**Minecraft version**: 1.15.1
+**Minecraft version**: 1.15.2
 
 ***This server is whitelisted.*** To request access and for more information, please visit the `#minecraftserver` channel of The Basement on Discord.
+
+<a href="https://docs.google.com/document/d/11icwlRRAenI0MuUjgyElhZm8qmbzC3KlyaWc2UnOGY0}" class="action">View server rules</a>
+
+----
 
 **Supporting this server:** if you enjoy playing on this server and would like to support it financially, you can chip in via [Joey's Ko-Fi](https://ko-fi.com/joeyfoo), or [find out more about server finances here](/about/donations). 
 
