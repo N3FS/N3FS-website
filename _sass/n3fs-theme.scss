@@ -194,6 +194,8 @@ article{
 .header{
   max-width: $page-width;
   margin: 0 auto;
+  margin-bottom: 96px;
+  padding: 16px;
 
   // Rotated rect background
   &::before{
@@ -212,9 +214,6 @@ article{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px;
-    margin-bottom: 96px;
-
     
     .header-logo{
       display: block;
@@ -290,6 +289,18 @@ article{
           }
         }
       }
+    }
+  }
+  .header-message{
+    margin-top: 32px;
+    color: #fff;
+    border: 1px solid $accent-color;
+    border-radius: 8px;
+    background-color: rgba($accent-color, 0.5);
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    a{
+      color: scale-color($color: $accent-color, $lightness: 50%);
     }
   }
 }
