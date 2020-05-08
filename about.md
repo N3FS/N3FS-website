@@ -135,13 +135,6 @@ These are the people that run N3FS! To contact staff, please use [our Discord se
     <div class="staff-position">Mod</div>
     <div class="staff-tagline">Everyone loves Ruby</div>
   </div>
-
-  <div class="staff-member">
-    <div class="staff-avatar" style="background-position: -192px -0px;"></div>
-    <div class="staff-name">TheThirdOdd</div>
-    <div class="staff-position">Mod</div>
-    <div class="staff-tagline">TheThirdOdd/Modd/Godd/Sodd</div>
-  </div>
 </div>
 
 <a href="/help/staff-application" class="action">Submit a staff application</a>
@@ -177,6 +170,13 @@ These individuals used to help run N3FS, but have since stepped down from their 
     <div class="staff-name">IRHNLL</div>
     <div class="staff-position">Mod</div>
     <div class="staff-tagline">They weren't the mods you're looking for</div>
+  </div>
+
+  <div class="staff-member">
+    <div class="staff-avatar" style="background-position: -192px -0px;"></div>
+    <div class="staff-name">TheThirdOdd</div>
+    <div class="staff-position">Mod</div>
+    <div class="staff-tagline">TheThirdOdd/Modd/Godd/Sodd</div>
   </div>
 
   <div class="staff-member fade">
