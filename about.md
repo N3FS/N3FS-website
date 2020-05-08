@@ -172,7 +172,7 @@ These individuals used to help run N3FS, but have since stepped down from their 
     <div class="staff-tagline">They weren't the mods you're looking for</div>
   </div>
 
-  <div class="staff-member">
+  <div class="staff-member fade">
     <div class="staff-avatar" style="background-position: -192px -0px;"></div>
     <div class="staff-name">TheThirdOdd</div>
     <div class="staff-position">Mod</div>
