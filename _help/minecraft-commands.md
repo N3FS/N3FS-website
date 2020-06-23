@@ -71,7 +71,7 @@ Lock flags:
 | /lwc flag hopper on | Enable hoppers to interact with locked chests |
 |---
 
-More details on the lock plugin including adding others as members to a lock [can be found here](https://github.com/Tsuser1/Modern-LWC/wiki/Commands).
+More details on the lock plugin including adding others as members to a lock [can be found here](https://github.com/pop4959/LWCX/wiki/Commands).
 
 ## Teleporting
 
