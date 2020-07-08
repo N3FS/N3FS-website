@@ -14,7 +14,7 @@ Click below to learn about the servers N3FS currently operate!
 
 <a href="/discord" class="action">About our Discord server</a>
 
-We're also on [Twitter](https://twitter.com/TeamN3FS) and have [a Steam group](https://steamcommunity.com/groups/n3fstjs/edit/profile). 
+We're also on [Twitter](https://twitter.com/TeamN3FS) and have [a Steam group](https://steamcommunity.com/groups/n3fstjs/). 
 
 
 ## Supporting N3FS
