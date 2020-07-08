@@ -132,12 +132,42 @@ These are the people that run N3FS! To contact staff, please use [our Discord se
   <div class="staff-member">
     <img class="staff-avatar" src="/assets/images/staff/ruby.png">
     <div class="staff-name">TheRubiksCubed</div>
-    <div class="staff-position">Mod</div>
+    <div class="staff-position">Mod, Builder</div>
     <div class="staff-tagline">Everyone loves Ruby</div>
   </div>
 </div>
 
 <a href="/help/staff-application" class="action">Submit a staff application</a>
+
+### Builders
+
+Builders are community members who are recognised for their grand projects, many of which are completely built from scratch in Survival! 
+
+<div class="staff-list">
+  <div class="staff-member">
+    <img class="staff-avatar" src="/assets/images/staff/red.png">
+    <div class="staff-name">RedBow99</div>
+    <div class="staff-position">Builder</div>
+    <div class="staff-tagline">Builds some cities on rock and roll</div>
+  </div>
+
+  <div class="staff-member">
+    <img class="staff-avatar" src="/assets/images/staff/bio.png">
+    <div class="staff-name">BionicSabertooth</div>
+    <div class="staff-position">Builder</div>
+    <div class="staff-tagline">The Master of Totally Completed Builds</div>
+  </div>
+
+  <div class="staff-member">
+    <img class="staff-avatar" src="/assets/images/staff/chet.png">
+    <div class="staff-name">Chet_YouBetcha</div>
+    <div class="staff-position">Builder</div>
+    <div class="staff-tagline">Elytra flight is weeeeeird</div>
+  </div>
+</div>
+
+<a href="/help/builders" class="action">Nominate a builder</a>
+
 
 ### Retired staff
 
@@ -147,12 +177,12 @@ These individuals used to help run N3FS, but have since stepped down from their 
   <div class="staff-member fade">
     <img class="staff-avatar" src="/assets/images/staff/jonsey.png">
     <div class="staff-name">The_Jonsey</div>
-    <div class="staff-position">Founder and Server Overlord</div>
-    <div class="staff-tagline">Owner</div>
+    <div class="staff-position">Founder</div>
+    <div class="staff-tagline">Jonsey Lies</div>
   </div>
 
   <div class="staff-member fade">
-    <img class="staff-avatar" src="/assets/images/staff/md.png">
+    <img class="staff-avatar" src="/assets/images/staff/asd.png">
     <div class="staff-name">asd109</div>
     <div class="staff-position">Admin</div>
     <div class="staff-tagline">It's a(WOL)sd109</div>
@@ -192,55 +222,19 @@ These individuals used to help run N3FS, but have since stepped down from their 
     <div class="staff-position">Mod</div>
     <div class="staff-tagline">Moderating people since 2014</div>
   </div>
-</div>
 
-
-### Builders
-
-Builders are community members who are recognised for their grand projects, many of which are completely built from scratch in Survival! 
-
-<div class="staff-list">
-  <div class="staff-member">
-    <div class="staff-avatar" style="background-position: -0px -48px;"></div>
-    <div class="staff-name">RedBow99</div>
-    <div class="staff-position">Builder</div>
-    <div class="staff-tagline">Builds some cities on rock and roll</div>
-  </div>
-
-  <div class="staff-member">
-    <div class="staff-avatar" style="background-position: -48px -48px;"></div>
-    <div class="staff-name">TheRubiksCubed</div>
-    <div class="staff-position">Builder</div>
-    <div class="staff-tagline">Everyone loves Ruby</div>
-  </div>
-
-  <div class="staff-member">
-    <div class="staff-avatar" style="background-position: -96px -48px;"></div>
+  <div class="staff-member fade">
+    <img class="staff-avatar" src="/assets/images/staff/chry.png">
     <div class="staff-name">_Chrysaor</div>
     <div class="staff-position">Builder</div>
     <div class="staff-tagline">Too busy chry-ing to build anything ;-;</div>
   </div>
 
-  <div class="staff-member">
-    <div class="staff-avatar" style="background-position: -144px -48px;"></div>
+  <div class="staff-member fade">
+    <img class="staff-avatar" src="/assets/images/logo-small.png">
     <div class="staff-name">Cranboid</div>
     <div class="staff-position">Builder</div>
     <div class="staff-tagline">Our commissionary builder</div>
   </div>
-
-  <div class="staff-member">
-    <div class="staff-avatar" style="background-position: -240px -48px;"></div>
-    <div class="staff-name">BionicSabertooth</div>
-    <div class="staff-position">Builder</div>
-    <div class="staff-tagline">The Master of Totally Completed Builds</div>
-  </div>
-
-  <div class="staff-member">
-    <div class="staff-avatar" style="background-position: -288px -48px;"></div>
-    <div class="staff-name">Chet_YouBetcha</div>
-    <div class="staff-position">Builder</div>
-    <div class="staff-tagline">Elytra flight is weeeeeird</div>
-  </div>
 </div>
 
-<a href="/help/builders" class="action">Nominate a builder</a>
