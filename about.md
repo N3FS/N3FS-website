@@ -55,7 +55,7 @@ You can also show your support by spreading the word and inviting your friends t
   width: 48px;
   height: 48px;
   background-color: #888;
-  background-image: url('/assets/images/staff.jpg');
+  /* background-image: url('/assets/images/staff.jpg'); */
   background-size: 384px 192px;
   border-radius: 100%;
   margin: 0 8px 8px 0;
@@ -102,35 +102,35 @@ These are the people that run N3FS! To contact staff, please use [our Discord se
 
 <div class="staff-list">
   <div class="staff-member">
-    <div class="staff-avatar" style="background-position: -48px -0px;"></div>
+    <img class="staff-avatar" src="/assets/images/staff/md.png">
     <div class="staff-name">MD678685</div>
     <div class="staff-position">Head Admin</div>
     <div class="staff-tagline">One who actually does stuff</div>
   </div>
 
   <div class="staff-member">
-    <div class="staff-avatar" style="background-position: -288px -0px;"></div>
+    <img class="staff-avatar" src="/assets/images/staff/joey.png">
     <div class="staff-name">joeyfjj</div>
     <div class="staff-position">Admin</div>
     <div class="staff-tagline">Maker of terrible puns.</div>
   </div>
 
   <div class="staff-member">
-    <div class="staff-avatar" style="background-position: -192px -48px;"></div>
+    <img class="staff-avatar" src="/assets/images/staff/jack.png">
     <div class="staff-name">its_notjack</div>
     <div class="staff-position">Tech</div>
     <div class="staff-tagline">May or may not be Jack</div>
   </div>
 
   <div class="staff-member">
-    <div class="staff-avatar" style="background-position: -336px -48px;"></div>
+    <img class="staff-avatar" src="/assets/images/staff/shep.png">
     <div class="staff-name">TheRetroSheperd</div>
     <div class="staff-position">Mod</div>
     <div class="staff-tagline">Someone stole the toilet seat from the church</div>
   </div>
 
   <div class="staff-member">
-    <div class="staff-avatar" style="background-position: -48px -48px;"></div>
+    <img class="staff-avatar" src="/assets/images/staff/ruby.png">
     <div class="staff-name">TheRubiksCubed</div>
     <div class="staff-position">Mod</div>
     <div class="staff-tagline">Everyone loves Ruby</div>
@@ -145,49 +145,49 @@ These individuals used to help run N3FS, but have since stepped down from their 
 
 <div class="staff-list">
   <div class="staff-member fade">
-    <div class="staff-avatar" style="background-position: -0px -0px;"></div>
+    <img class="staff-avatar" src="/assets/images/staff/jonsey.png">
     <div class="staff-name">The_Jonsey</div>
     <div class="staff-position">Founder and Server Overlord</div>
     <div class="staff-tagline">Owner</div>
   </div>
 
   <div class="staff-member fade">
-    <div class="staff-avatar" style="background-position: -96px -0px;"></div>
+    <img class="staff-avatar" src="/assets/images/staff/md.png">
     <div class="staff-name">asd109</div>
     <div class="staff-position">Admin</div>
     <div class="staff-tagline">It's a(WOL)sd109</div>
   </div>
 
   <div class="staff-member fade">
-    <div class="staff-avatar" style="background-position: -144px -0px;"></div>
+    <img class="staff-avatar" src="/assets/images/staff/figgy.png">
     <div class="staff-name">Figgy_Jiggerworm</div>
     <div class="staff-position">Admin</div>
     <div class="staff-tagline">Part-time eyebrow wiggler</div>
   </div>
 
   <div class="staff-member fade">
-    <div class="staff-avatar" style="background-position: -240px -0px;"></div>
+    <img class="staff-avatar" src="/assets/images/staff/irh.jpg">
     <div class="staff-name">IRHNLL</div>
     <div class="staff-position">Mod</div>
     <div class="staff-tagline">They weren't the mods you're looking for</div>
   </div>
 
   <div class="staff-member fade">
-    <div class="staff-avatar" style="background-position: -192px -0px;"></div>
+    <img class="staff-avatar" src="/assets/images/staff/odd.png">
     <div class="staff-name">TheThirdOdd</div>
     <div class="staff-position">Mod</div>
     <div class="staff-tagline">TheThirdOdd/Modd/Godd/Sodd</div>
   </div>
 
   <div class="staff-member fade">
-    <div class="staff-avatar" style="background-position: -336px -0px;"></div>
-    <div class="staff-name">Mr_EnderCrafter</div>
+    <img class="staff-avatar" src="/assets/images/staff/ender.png">
+    <div class="staff-name">Ender</div>
     <div class="staff-position">Community Manager</div>
     <div class="staff-tagline">Ran off to sixth form.</div>
   </div>
 
   <div class="staff-member fade">
-    <div class="staff-avatar" style="background-position: 0px -96px;"></div>
+    <img class="staff-avatar" src="/assets/images/staff/nody.png">
     <div class="staff-name">Nody</div>
     <div class="staff-position">Mod</div>
     <div class="staff-tagline">Moderating people since 2014</div>
