@@ -173,7 +173,7 @@ Builders are community members who are recognised for their grand projects, many
   </div>
 </div>
 
-<a href="/help/builders" class="action">Nominate a builder</a>
+<a href="/help/builder" class="action">Nominate a builder</a>
 
 
 ### Retired staff
