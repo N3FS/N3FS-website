@@ -123,6 +123,13 @@ These are the people that run N3FS! To contact staff, please use [our Discord se
   </div>
 
   <div class="staff-member">
+    <img class="staff-avatar" src="/assets/images/staff/waffle.png">
+    <div class="staff-name">Waffle</div>
+    <div class="staff-position">Mod</div>
+    <div class="staff-tagline">Part-time Turtle Murderer</div>
+  </div>
+
+  <div class="staff-member">
     <img class="staff-avatar" src="/assets/images/staff/shep.png">
     <div class="staff-name">TheRetroSheperd</div>
     <div class="staff-position">Mod</div>
