@@ -8,17 +8,18 @@ permalink: /basement
 
 The Basement was a private (whitelisted), non-PvP Minecraft server hosted for [@hanjosi](https://twitter.com/hanjosi). 
 
+-----
+
 ## World downloads
 
 These downloads has been prepared and repackaged, so they should work directly after being extracted into your Minecraft installation's `saves` folder. 
 
-**Warning**: large download size!
-
-|--
-| World download name | ZIP download size | Uncompressed size |
-|--
-| [**Survival**](https://go.dangeraspect.xyz/basementmc) | 3.97 GB | 6.70 GB 
-|--
+| World download: | &nbsp; |
+| ---
+| **Download:**      | [**Survival** (compressed .zip file)](https://go.dangeraspect.xyz/basementmc) |
+| Download size:     | 3.97 GB        |
+| Uncompressed size: | 6.70 GB        |
+| Minecraft version: | 1.15.2         |
 
 ### Notes
 
