@@ -110,7 +110,7 @@ To teleport a player or yourself:
 |---
 | Command | Description |
 |---
-| /ptime [day|night|dawn|17:30|4pm|4000ticks] | On survival and creative, change your local time. (This does not affect sleeping, phantoms or other players.)|
-| /ptime @[day|night|dawn|17:30|4pm|4000ticks] | On survival and creative, change your local time and pause time progression. (This does not affect sleeping, phantoms or other players.)|
-| /ptime @[day|night|dawn|17:30|4pm|4000ticks] | On survival and creative, reset your local time to the server's time.|
+| /ptime [day\|night\|dawn\|17:30\|4pm] | Change your local time. (This does not affect sleep, phantoms or other players.)|
+| /ptime @[day\|night\|dawn\|17:30\|4pm] | Change your local time and pause time progression. (This does not affect sleep, phantoms or other players.)|
+| /ptime reset | Reset your local time to the server's time.|
 |---
