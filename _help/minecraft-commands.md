@@ -15,6 +15,7 @@ This page lists some useful commands for the Minecraft server.
 <a href="#locks" class="action">Locks</a>
 <a href="#teleporting" class="action">Teleporting</a>
 <a href="#messaging" class="action">Messaging</a>
+<a href="#cosmetic" class="action">Cosmetic</a>
 
 ## Worlds
 
@@ -25,6 +26,7 @@ To move between servers, use these commands:
 |---
 | /hub | Moves you to the Hub world|
 | /survival | Moves you to the Survival world|
+| /creative | Moves you to the Creative world|
 |---
 
 ## Homes
@@ -101,4 +103,14 @@ To teleport a player or yourself:
 |---
 | /msg [player] [message] | Sends the private message to the specified player.|
 | /r [message] | Replies to the last player that messaged you.|
+|---
+
+## Cosmetic
+
+|---
+| Command | Description |
+|---
+| /ptime [day|night|dawn|17:30|4pm|4000ticks] | On survival and creative, change your local time. (This does not affect sleeping, phantoms or other players.)|
+| /ptime @[day|night|dawn|17:30|4pm|4000ticks] | On survival and creative, change your local time and pause time progression. (This does not affect sleeping, phantoms or other players.)|
+| /ptime @[day|night|dawn|17:30|4pm|4000ticks] | On survival and creative, reset your local time to the server's time.|
 |---
