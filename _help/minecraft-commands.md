@@ -94,6 +94,7 @@ To teleport a player or yourself:
 | /tpa [player] | Sends a request to the player to teleport to them.|
 | /tpahere [player] | Sends a request to the player to teleport them to you.|
 | /tpaaccept and /tpdeny | Accepts or denies an incoming teleport request.|
+| /tpauto | Automatically accept incoming teleport requests.|
 |---
 
 ## Messaging
