@@ -15,7 +15,7 @@ If you would like to help support us financially, please check out the links bel
 
 <a href="https://www.patreon.com/dangeraspect" class="action">Patreon (for monthly, recurring donations)</a>
 
-<a href="https://ko-fi.com/joeyfoo" class="action">Ko-Fi (for one-off donations)</a>
+<a href="https://ko-fi.com/dangeraspect" class="action">Ko-Fi (for one-off donations)</a>
 
 In exchange for your donation, we will grant you the Donator role. It looks fancy, but that's all it does. Donations do not come with any other benefits. 
 
