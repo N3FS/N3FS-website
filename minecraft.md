@@ -35,6 +35,10 @@ To be able to build in the spawn town in Survival and in Creative, you need to v
 
 <a href="/help/minecraft-guidelines" class="action">Getting started / Server guidelines</a>
 
+<a href="/help/minecraft-commands" class="action">Minecraft commands</a>
+
+<a href="/help/minecraft-claims" class="action">Claiming a build</a>
+
 ----
 
 <a href="/help/ban-appeal" class="action">Appeal a ban</a>
