@@ -106,12 +106,15 @@ To teleport a player or yourself:
 | /r [message] | Replies to the last player that messaged you.|
 |---
 
-## Cosmetic
+## Time
+
+You can change your local time. 
+These changes are visual and only applies to yourself! The server's time still apply: Phantoms will spawn when it's night, and this does not affect sleep or other players.
 
 |---
 | Command | Description |
 |---
-| /ptime [day\|night\|dawn\|17:30\|4pm] | Change your local time. (This does not affect sleep, phantoms or other players.)|
-| /ptime @[day\|night\|dawn\|17:30\|4pm] | Change your local time and pause time progression. (This does not affect sleep, phantoms or other players.)|
+| /ptime [day\|night\|dawn\|17:30\|4pm] | Change your local time.|
+| /ptime @[day\|night\|dawn\|17:30\|4pm] | Change your local time and pause time progression.|
 | /ptime reset | Reset your local time to the server's time.|
 |---
