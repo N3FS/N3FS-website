@@ -15,7 +15,7 @@ This page lists some useful commands for the Minecraft server.
 <a href="#locks" class="action">Locks</a>
 <a href="#teleporting" class="action">Teleporting</a>
 <a href="#messaging" class="action">Messaging</a>
-<a href="#cosmetic" class="action">Cosmetic</a>
+<a href="#time" class="action">Time</a>
 
 ## Worlds
 
@@ -109,6 +109,7 @@ To teleport a player or yourself:
 ## Time
 
 You can change your local time. 
+
 These changes are visual and only applies to yourself! The server's time still apply: Phantoms will spawn when it's night, and this does not affect sleep or other players.
 
 |---
