@@ -5,6 +5,8 @@ action: Guidelines and getting started
 back:
   link: /help
   title: Help
+redirect_from:
+  - /start
 ---
 
 We know joining a new community can be daunting, so we've put together some tips and guidelines to help you get started! 
