@@ -6,7 +6,7 @@ short_title: About
 
 N3FS is a gaming community, formed by folks with a flair for bodging servers together. 
 
-Some of us are fans of NerdCubed who miss playing on the former NerdCubed Servers which closed in May 2016[<sup>1</sup>](https://twitter.com/Mattophobia/status/737372825779064833). 
+It was initially started by former players from the now-defunct NerdCubed Servers, which closed in May 2016[<sup>1</sup>](https://twitter.com/Mattophobia/status/737372825779064833). It is independently-run and not affiliated with NerdCubed.
 
 ## Our servers
 
