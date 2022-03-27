@@ -357,7 +357,7 @@ footer{
   }
   #servers{
     background-color: transparent;
-    background-image: linear-gradient(175deg, transparent 48%, #{$accent-color} 48%, #{$accent-color} 52%, #{$background-color} 52%);
+    background-image: linear-gradient(175deg, transparent calc(48% - 1px), #{$accent-color} calc(48% + 1px), #{$accent-color} calc(52% - 1px), #{$background-color} calc(52% + 1px));
     .server-list{
       display: flex;
       flex-wrap: wrap;
