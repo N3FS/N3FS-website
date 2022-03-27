@@ -10,24 +10,11 @@ This page lists some useful commands for the Minecraft server.
 
 ## In this page:
 
-<a href="#worlds" class="action">Worlds</a>
 <a href="#homes" class="action">Homes</a>
 <a href="#locks" class="action">Locks</a>
 <a href="#teleporting" class="action">Teleporting</a>
 <a href="#messaging" class="action">Messaging</a>
 <a href="#time" class="action">Time</a>
-
-## Worlds
-
-To move between servers, use these commands:
-
-|---
-| Command | Description |
-|---
-| /hub | Moves you to the Hub world|
-| /survival | Moves you to the Survival world|
-| /creative | Moves you to the Creative world|
-|---
 
 ## Homes
 

@@ -19,9 +19,24 @@ If you would like to help support us financially, please check out the links bel
 
 In exchange for your donation, we will grant you the Donator role. It looks fancy, but that's all it does. Donations do not come with any other benefits. 
 
-## Estimated expenses
+## Current estimated expenses
 
-The following are the current estimated costs of running this community. 
+These are the current estimated costs of keeping the lights on, [post-Minecraft 1.18 update](/news/2022/03/minecraft-1.18-update).
+
+|---
+| Description | Frequency | Amount |
+|---
+| Dedicated server | Monthly | 6.75 USD |
+| Domain name renewal | Annual | 12.98 USD (expected) |
+|---
+| Estimated total expenses |  |  |
+| - Yearly |  | 93.98 USD |
+| - Monthly |  | 7.83 USD |
+|---
+
+## Previous estimated expenses
+
+For comparison, here are the costs before the reboot, before Minecraft 1.18. 
 
 |---
 | Description | Frequency | Amount |

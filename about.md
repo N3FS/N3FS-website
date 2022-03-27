@@ -4,7 +4,9 @@ title: About N3FS
 short_title: About
 ---
 
-N3FS is a gaming community run by fans of NerdCubed. We're fans of NerdCubed who miss playing on the former NerdCubed Servers, and have a flair for bodging servers together.
+N3FS is a gaming community, formed by folks with a flair for bodging servers together. 
+
+Some of us are fans of NerdCubed who miss playing on the former NerdCubed Servers which closed in May 2016[<sup>1</sup>](https://twitter.com/Mattophobia/status/737372825779064833). 
 
 ## Our servers
 
@@ -25,13 +27,13 @@ N3FS is independently run and paid for by the server staff. Here's more about ou
 
 You can also show your support by spreading the word and inviting your friends to join the server!
 
-## What others say about us...
+## ~~<span style="font-weight:normal;opacity:0.5;">What others say about us...</span>~~<br>Awards & Accolades
 
 <div class="lead">“Matt said that this server is poopy.”</div>
-[<small>&mdash;ThePerkyRiolu</small>](/assets/images/matt-quote.png)
+<small>&mdash;ThePerkyRiolu [<sup>2</sup>](/assets/images/matt-quote.png)</small>
 
 <div class="lead">“What was I on when I had this idea?”</div>
-[<small>&mdash;The_Jonsey, Server Founder</small>](/assets/images/jonsey-quote.png)
+<small>&mdash;The_Jonsey, Server Founder [<sup>3</sup>](/assets/images/jonsey-quote.png)</small>
 
 ----
 
@@ -110,7 +112,7 @@ These are the people that run N3FS! To contact staff, please use [our Discord se
 
   <div class="staff-member">
     <img class="staff-avatar" src="/assets/images/staff/joey.png">
-    <div class="staff-name">joeyfjj</div>
+    <div class="staff-name">DangerAspect</div>
     <div class="staff-position">Admin</div>
     <div class="staff-tagline">Maker of terrible puns.</div>
   </div>
@@ -120,13 +122,6 @@ These are the people that run N3FS! To contact staff, please use [our Discord se
     <div class="staff-name">its_notjack</div>
     <div class="staff-position">Tech</div>
     <div class="staff-tagline">May or may not be Jack</div>
-  </div>
-
-  <div class="staff-member">
-    <img class="staff-avatar" src="/assets/images/staff/waffle.png">
-    <div class="staff-name">Waffle</div>
-    <div class="staff-position">Mod</div>
-    <div class="staff-tagline">Part-time Turtle Murderer</div>
   </div>
 
   <div class="staff-member">
@@ -200,6 +195,13 @@ These individuals used to help run N3FS, but have since stepped down from their 
     <div class="staff-name">Figgy_Jiggerworm</div>
     <div class="staff-position">Admin</div>
     <div class="staff-tagline">Part-time eyebrow wiggler</div>
+  </div>
+
+  <div class="staff-member fade">
+    <img class="staff-avatar" src="/assets/images/staff/waffle.png">
+    <div class="staff-name">Waffle</div>
+    <div class="staff-position">Mod</div>
+    <div class="staff-tagline">Part-time Turtle Murderer</div>
   </div>
 
   <div class="staff-member fade">

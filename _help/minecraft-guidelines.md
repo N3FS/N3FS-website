@@ -9,9 +9,7 @@ back:
 
 We know joining a new community can be daunting, so we've put together some tips and guidelines to help you get started! 
 
-## Survival world
-
-### We're a group of friends!
+## We're a group of friends!
 
 This is a PvE-focused server. Most of the regular players are friends and know each other, so we're not keen on things like unprovoked PvP or looting. 
 
@@ -19,7 +17,7 @@ Take your time to review our server rules too to make sure you know what's welco
 
 <a href="/rules" class="action">View the server rules</a>
 
-### Your first home
+## Your first home
 
 We don't have an explicit claim system in place for property. Instead, we use an honour-based system and some common sense! 
 
