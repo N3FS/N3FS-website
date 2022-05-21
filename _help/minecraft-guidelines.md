@@ -43,3 +43,11 @@ There are a lot of useful commands and features on the server.
 * Feel free to build anywhere! 
 * Just remember: don't grief or modify existing stuff
 * For testing and building mockups, use the TP button at spawn. It'll teleport you out further to open land so you're able to build more freely. -->
+
+----
+
+## Get verified
+
+Ready to start? 
+
+<a href="/help/minecraft-verification" class="action">Get verified!</a>
