@@ -20,7 +20,7 @@ The Minecraft server is integrated with Discord: chat with in-game players from 
 
 **Server address**: ~~`mc.n3fs.co.uk`~~  
 (Servers currently in soft-launch, please use `new.n3fs.co.uk`)  
-**Minecraft version**: Java Edition 1.18.2
+**Minecraft version**: Java Edition 1.19
 
 Please feel free to join the server to have a look around!
 
